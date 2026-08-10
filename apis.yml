@@ -1,0 +1,43 @@
+name: Linguidoor
+description: >-
+  Berlin-based ISO-certified human-driven translation and localization agency offering professional translation in 100+
+  languages, localization, interpretation, certified document translation, and media/dubbing services. No public API;
+  the only agent-native surface is an llms.txt content-discovery file.
+url: https://linguidoor.apievangelist.com/apis.yml
+created: '2026-08-10'
+modified: '2026-08-10'
+specificationVersion: '0.21'
+tags:
+  - Translation Services
+  - Localization
+  - Language Services
+  - Interpretation
+  - Document Translation
+  - Content Services
+  - Media / Dubbing
+apis:
+  - name: Linguidoor Agent Discovery
+    description: >-
+      Agent-native content-discovery surface for Linguidoor. Only an llms.txt file is present; no callable API,
+      contract, or MCP server exists.
+    humanURL: https://linguidoor.com
+    baseURL: https://linguidoor.com
+    tags:
+      - Translation Services
+      - Localization
+      - Language Services
+      - Interpretation
+      - Document Translation
+      - Content Services
+      - Media / Dubbing
+    properties:
+      - type: LLMsTxt
+        url: https://linguidoor.com/llms.txt
+maintainers:
+  - FN: Linguidoor
+    url: https://linguidoor.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 70
+  at: '2026-08-10T10:05:12.857Z'
