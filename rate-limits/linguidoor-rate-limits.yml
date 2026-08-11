@@ -1,0 +1,26 @@
+generated: '2026-08-11'
+method: probed
+source: https://linguidoor.com/wp-json/wp/v2/posts?per_page=1
+limit_count: 0
+note: >-
+  Linguidoor publishes no API rate limits — there is no developer portal, no API reference and
+  no terms page that states a quota. A live unauthenticated request to the site's WordPress REST
+  API returned HTTP 200 with no RateLimit-*, X-RateLimit-* or Retry-After header of any kind, so
+  no runtime rate-limit signal is available to an agent either. An honest zero, recorded rather
+  than omitted.
+limits: []
+observed_headers:
+  url: https://linguidoor.com/wp-json/wp/v2/posts?per_page=1
+  http_status: 200
+  rate_limit_headers: []
+  pagination_headers:
+    - X-WP-Total
+    - X-WP-TotalPages
+    - Link (rel="next")
+  infrastructure:
+    server: hcdn (Hostinger)
+    platform: hostinger
+    cache: x-litespeed-cache-control, x-hcdn-cache-status
+exhaustion:
+  status_code: null
+  note: Not documented and not observed; no throttling response was produced by normal probing.

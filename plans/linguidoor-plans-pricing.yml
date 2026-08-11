@@ -1,0 +1,79 @@
+generated: '2026-08-11'
+method: searched
+source: https://linguidoor.com/pricing/
+currency: EUR
+model: per-word service pricing plus fixed-price certified document translations
+plan_count: 3
+note: >-
+  Linguidoor is a professional-services provider, not an API vendor: these are service tiers
+  priced per translated word, not API plans. There is no API pricing, no metered API quota and
+  no self-serve API key. Base rates only — the page states final pricing depends on language
+  pair and subject domain.
+plans:
+  - name: Standard
+    price: 0.05
+    currency: EUR
+    unit: per word
+    billing_period: per project
+    included:
+      - Standard translation
+      - Quick turnaround (2-3 business days)
+      - Basic quality check
+      - Support for common file formats
+  - name: Professional
+    price: 0.08
+    currency: EUR
+    unit: per word
+    billing_period: per project
+    included:
+      - Domain-specific translation
+      - Subject matter expertise
+      - Comprehensive quality assurance
+      - Localization support
+      - Faster turnaround (1-2 business days)
+      - Translation memory for cost savings on repetitive content
+  - name: Expert
+    price: 0.14
+    currency: EUR
+    unit: per word
+    billing_period: per project
+    included:
+      - Advanced cultural adaptation
+      - Specialized industry translation
+      - Multiple review stages
+      - Dedicated project manager
+      - Guaranteed 98% accuracy
+      - Express delivery option (same day for urgent projects)
+      - Multimedia localization (video, audio, graphics)
+      - Integration with client's content management systems
+terms:
+  - Free sample translation (e.g. 250 words) for new clients
+  - Volume discounts apply for 10,000+ words
+  - Rates shown are base rates; final pricing is set by language pair and subject domain
+fixed_price_products:
+  source: https://linguidoor.com/wp-json/wc/store/v1/products
+  method: probed
+  note: >-
+    Read from the site's public unauthenticated WooCommerce Store API. Prices returned in minor
+    units (currency_minor_unit 2) and converted to EUR below.
+  count: 19
+  products:
+    - {name: Certified Translation, price: 77.00, currency: EUR, url: 'https://linguidoor.com/product/certified-translation/'}
+    - {name: Affidavit, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/affidavite/'}
+    - {name: Birth Certificate, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/birth-certificate/'}
+    - {name: Marriage Certificate, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/marriage-certificate/'}
+    - {name: College Degree, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/college-degree/'}
+    - {name: High School Certificate, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/high-school-certificate/'}
+    - {name: Bachelor / Master / Diploma certificate, price: 70.00, currency: EUR, url: 'https://linguidoor.com/product/bachelor-master-diploma-certificate/'}
+    - {name: Anmeldung (City Registration), price: 65.00, currency: EUR, url: 'https://linguidoor.com/product/anmeldung-city-registration/'}
+    - {name: Driving License, price: 60.00, currency: EUR, url: 'https://linguidoor.com/product/driving-license/'}
+    - {name: CV, price: 50.00, currency: EUR, url: 'https://linguidoor.com/product/cv/'}
+    - {name: Cover Letter, price: 50.00, currency: EUR, url: 'https://linguidoor.com/product/coverletter/'}
+    - {name: Passport, price: 50.00, currency: EUR, url: 'https://linguidoor.com/product/passport/'}
+    - {name: Visa / Resident Permit / Blue Card, price: 50.00, currency: EUR, url: 'https://linguidoor.com/product/visa-resident-permit-blue-card/'}
+    - {name: Power of Attorney, price: 40.00, currency: EUR, url: 'https://linguidoor.com/product/power-of-attorney/'}
+    - {name: Schufa, price: 40.00, currency: EUR, url: 'https://linguidoor.com/product/schufa/'}
+    - {name: Decree of Divorce, price: 40.00, currency: EUR, url: 'https://linguidoor.com/product/decree-of-divorce/'}
+    - {name: Salary Slip, price: 40.00, currency: EUR, url: 'https://linguidoor.com/product/salary-slip/'}
+    - {name: Job Contract, price: 25.00, currency: EUR, url: 'https://linguidoor.com/product/job-contract/'}
+    - {name: Rent Agreement, price: 25.00, currency: EUR, url: 'https://linguidoor.com/product/rent-agreement-2/'}
