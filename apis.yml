@@ -14,7 +14,7 @@ description: >-
   surfaces are the platform-default WordPress REST API at /wp-json/ (which includes the public
   unauthenticated WooCommerce Store API) and a plugin-generated llms.txt whose entire content is the
   default WordPress "Hello world!" post.
-url: https://linguidoor.apievangelist.com/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/linguidoor/refs/heads/main/apis.yml
 created: '2026-08-10'
 modified: '2026-08-11'
 specificationVersion: '0.21'
