@@ -17,7 +17,7 @@ description: >-
 url: https://raw.githubusercontent.com/api-evangelist/linguidoor/refs/heads/main/apis.yml
 created: '2026-08-10'
 modified: '2026-08-11'
-specificationVersion: '0.21'
+specificationVersion: '0.23'
 image: https://linguidoor.com/wp-content/themes/transzlate/images/common/linguidoor-logo.svg
 tags:
   - Translation Services
