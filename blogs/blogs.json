@@ -2,20 +2,20 @@
   "repo": "linguidoor",
   "feeds": [
     {
-      "source": "https://linguidoor.com/faqs/",
-      "feed_url": "https://linguidoor.com/faqs/",
+      "source": "https://linguidoor.com/blog/",
+      "feed_url": "https://linguidoor.com/blog/",
       "title": "",
       "saved": 0,
       "method": "none"
     },
     {
-      "source": "https://linguidoor.com/blog/",
-      "feed_url": "https://linguidoor.com/blog/",
+      "source": "https://linguidoor.com/faqs/",
+      "feed_url": "https://linguidoor.com/faqs/",
       "title": "",
       "saved": 0,
       "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
