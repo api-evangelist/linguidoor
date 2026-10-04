@@ -66,7 +66,6 @@ apis:
       "Hello world!" post, so it describes none of Linguidoor's services, pricing or shop. There is
       no callable API, no machine-readable contract and no MCP server behind it.
     humanURL: https://linguidoor.com
-    baseURL: https://linguidoor.com
     tags:
       - Translation Services
       - Localization
