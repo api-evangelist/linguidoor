@@ -1,4 +1,4 @@
-# linguidoor
+# Linguidoor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Berlin-based ISO-certified human-driven translation and localization agency offering professional translation in 100+ languages, localization, interpretation, certified document translation, and media/dubbing services. No public API; the only agent-native surface is an llms.txt content-discovery fil
+Linguidoor is a Berlin-based, ISO-branded human translation and localization agency serving businesses and individuals across Germany and internationally. It offers professional translation in 100+ languages, website / app / software / game localization, MTPE, certified and sworn document translation for German administrative processes (birth and marriage certificates, driving licences, Anmeldung, Schufa, diplomas), interpretation, subtitling and captioning, voice-over and dubbing, transcription, desktop publishing, content writing, international SEO, and AI data services (data annotation, tagging and labeling, voice and text data collection, text-to-speech and voice cloning). Pricing is published per translated word across three service tiers, with fixed-price certified document translations sold through an online shop. Linguidoor publishes NO developer program: enrichment found no OpenAPI, AsyncAPI, GraphQL, MCP server, agent card, SDK, CLI or API documentation of any kind. The site is WordPress + WooCommerce on Hostinger; its only machine-readable surfaces are the platform-default WordPress REST API at /wp-json/ (which includes the public unauthenticated WooCommerce Store API) and a plugin-generated llms.txt whose entire content is the default WordPress "Hello world!" post.
+
+**Areas:** Translation Services · Localization · Language Services · Interpretation · Document Translation · Certified Translation · Content Services · Media / Dubbing · Transcription · AI Data Services · Professional Services · Germany
+
+## Linguidoor on APIs.io
+
+Everything profiled for Linguidoor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linguidoor/](https://apis.io/providers/linguidoor/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Linguidoor Agent Discovery](https://apis.io/apis/linguidoor/linguidoor-agent-discovery/) — Agent-native content-discovery surface for Linguidoor. The only artifact is an llms.txt file served at https://linguidoor.com/llms.txt (HTTP 200,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Linguidoor Domain Security](https://apis.io/security/linguidoor/linguidoor-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Linguidoor Plans Pricing](https://apis.io/plans/linguidoor/linguidoor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Linguidoor Rate Limits](https://apis.io/rate-limits/linguidoor/linguidoor-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://linguidoor.com)
+- [Pricing](https://linguidoor.com/pricing/)
+- [Support](https://linguidoor.com/contact/)
+- [Blog](https://linguidoor.com/blog/)
+- [Terms of service](https://linguidoor.com/terms-and-conditions/)
+- [Privacy policy](https://linguidoor.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 22.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 76.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/linguidoor/](https://apis.io/providers/linguidoor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Linguidoor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linguidoor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
